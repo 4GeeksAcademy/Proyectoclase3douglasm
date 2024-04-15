@@ -25,7 +25,7 @@
             </div>
             <div> <!--alert and date card-->
                 <div class="card-body"> <!--alert-->
-                    <div class="alert alert-danger text-start" role="alert">
+                    <div class="alert alert-danger text-start me-2" role="alert">
                         <strong>Some fields are missing</strong>
                     </div>
                 </div> <!--alert-->
@@ -39,9 +39,9 @@
                             <input type="number" placeholder="0000" maxlength="4" class="rounded-1 border border-1">
                         </fieldset>
                         <fieldset class="col d-flex flex-column m-2">
-                                <label for="amount" class="m-2"><strong>Amount</strong></label>
+                                <label for="amount" class="m-2 ms-4"><strong>Amount</strong></label>
                                 <div class="d-flex">
-                                    <span class="input-group-text">$</span>
+                                    <span class="m-2">$</span>
                                     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Amount">
                                 </div>
                         </fieldset>
@@ -50,20 +50,20 @@
                 <div class="row d-flex"> <!--datos personales-->
                     <div class="col-6 text-start"> <!--columna1-->
                         <div>
-                            <fieldset class="col d-flex flex-column m-2">                    
-                                <label for="firstName" class="m-2"><strong>First Name</strong></label>
-                                <input type="text" class="rounded-1 border border-1">
+                            <fieldset class="col d-flex flex-column m-2 ms-3">                    
+                                <label for="firstName" class="m-2 ms-3"><strong>First Name</strong></label>
+                                <input type="text" class="rounded-1 border border-1 ms-2">
                             </fieldset>
-                            <fieldset class="col d-flex flex-column m-2">
-                                <label for="city" class="m-2"><strong>City</strong></label>
-                                <input type="text" class="rounded-1 border border-1" >
+                            <fieldset class="col d-flex flex-column m-2 ms-3">
+                                <label for="city" class="m-2 ms-3"><strong>City</strong></label>
+                                <input type="text" class="rounded-1 border border-1 ms-2" >
                             </fieldset>
-                            <fieldset class="col d-flex flex-column m-2">
+                            <fieldset class="col d-flex flex-column m-2 ms-3">
                                 <div>
                                     <div>
-                                        <label for="accept" class="m-2"><strong>We accept:</strong></label>
+                                        <label for="accept" class="m-2 ms-3"><strong>We accept:</strong></label>
                                         <div>
-                                            <div class="btn btn-secondary">
+                                            <div class="btn btn-secondary ms-2">
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                                     <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
@@ -90,7 +90,7 @@
                     <div class="col-6 text-start"> <!--columna2-->
                         <div>
                             <div> <!--no se posiciona bien-->
-                                <fieldset class="col d-flex flex-column m-2">
+                                <fieldset class="col d-flex flex-column m-2 me-4">
                                     <label for="lastName" class="m-2"><strong>Last Name</strong></label>
                                     <input type="text" class="rounded-1 border border-1">
                                 </fieldset>
@@ -100,13 +100,13 @@
                                         <label for="state" class="m-2"><strong>State</strong></label>
                                         <input type="text" class="rounded-1 border border-1">
                                     </fieldset>
-                                    <fieldset class="col d-flex flex-column m-2">
+                                    <fieldset class="col d-flex flex-column m-2 me-4">
                                         <label for="postalCode" class="m-2"><strong>Postal Code</strong></label>
                                         <input type="number" class="rounded-1 border border-1">
                                     </fieldset>
                             </div> <!--direccion-->
                             <div>
-                                <fieldset class="col d-flex flex-column m-2">
+                                <fieldset class="col d-flex flex-column m-2 me-4">
                                         <div class="input-group d-block col d-flex flex-column">
                                             <h6><strong>Message</strong></h6>
                                             <textarea class="form-control-lg rounded-1 border border-1" aria-label="With textarea"></textarea>
@@ -118,8 +118,8 @@
                     </div> <!--columna2-->
                 </div> <!--datos personales-->
                 <div class="card-footer text-muted text-end">
-                    <button class="btn btn-secondary">Cancel</button>
-                    <button class="btn btn-primary">Send</button>
+                    <button class="btn btn-secondary me-1">Cancel</button>
+                    <button class="btn btn-primary me-1">Send</button>
                 </div>  
                 
             </div>
